@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body*/
+body{
+    padding: 30px;
+}
+
+/*navbar*/
+nav{
+    justify-content: space-between;
+    min-height: 100px;
+    display: flex;
+
+
+}
+
+
+.nav span{
+color: #8080ff;
+}
+
+.nav h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+
+.nav ul{
+    display: inline-flex;
+    float: right;
+
+}
+
+.nav ul li{
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.nav ul li a:hover{
+    color:#8080ff ;
+}
+
+.rond{
+    border: 2px solid #ccc;
+    height: 60px;
+    width: 50px;
+    border-radius: 70%;
+    background-color: brown;
+}
+
+/*first part*/
+
+.home{
+    min-height: 100px;
+    background-image: url('../img/chicago-690364_1280.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.home h1{
+    padding-top: 30px; 
+}
+
+.inp{
+   display: flex; 
+}
+
+.btnB{
+    width: 50px;
+    height: 25px;
+    background-color: #8080ff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    margin-left:20px;
+    flex: 1;
+    
+}
+
+.btnV{
+    width: 170px; 
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    color:#8080ff;
+    flex: 1;
+
+}
+
+.inp2{
+    display: flex;
+    margin-top: 20px;
+    margin-left:20px;
+
+}
+
+.inp2 input{
+    width: 210px; 
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btnO{
+    background-color: #ff9376;
+    width: 50px; 
+    height: 40px;
+    border-radius: 5px; 
+}
+
+/*second part*/
+
+.ecr{
+    padding-top: 30px;
+}
+
+.items{
+    display:flex;
+}
+.part-left{
+    
+    flex: 2;
+    display:flex;
+}
+.card-illustrations{
+background-image: url('../img/urban-438393_1280.jpg');
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    height: 130px;
+    width: 15%;
+    padding: 10px;
+}
